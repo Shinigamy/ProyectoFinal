@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'departamentos',
-			'username'  => 'root',
-			'password'  => 'root',
+			'database'  => 'forge',
+			'username'  => 'forge',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -77,9 +77,9 @@ return array(
 		'sqlsrv' => array(
 			'driver'   => 'sqlsrv',
 			'host'     => 'localhost',
-			'database' => 'departamentos',
+			'database' => 'database',
 			'username' => 'root',
-			'password' => 'root',
+			'password' => '',
 			'prefix'   => '',
 		),
 
